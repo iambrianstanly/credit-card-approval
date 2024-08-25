@@ -29,4 +29,17 @@ Features are as follows:
 - **Type_Occupation**: Occupation
 - **Family_Members**: Family size
 
+## SQL
 
+Used sql queries to analyse the data, try to find answers. Uisng python packgae like (duckdb).
+
+## Pipeline
+
+- **EDA**: Visualizing data for better understanding. Uisng techniques like Univariant and Bivariant Analysis. Correation for considering the features (feature selection).
+- **Imputing**: Treating missing values. Using technique like smote to handle the imbalance in data.
+- **Model**: Logistic Regression, Decision Tree, Random Forest, and Support Vector Machine modles are  used and compared.
+- **Training**:  Hyperparamter tuning techniques used for leveraging the performance for each models.
+
+## Model Evaluation
+
+The models are evaluated upon taking confusion matrix and comparing the accuracy, precision. Random Forest model performed well as accuracy of 92% was aquired.
